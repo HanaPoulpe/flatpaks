@@ -1,0 +1,16 @@
+id: org.hanapoulpe.org.sound.x32
+runtime: org.freedesktop.Platform
+runtime-version: '26.08'
+sdk: org.freedesktop.Sdk
+command: X32-edit
+modules:
+  - name: X32-edit
+    buildsystem: simple
+    build-commands:
+      - install -Dm755 X32-edit /app/bin/X32-edit
+    sources:
+      - type: extra-data
+        sha256: 86af5f9ce65dae6d4ed1c6fd0cea8af1c5929744fd4bd804dde9b46787ca9fcf
+        size: 25648592
+        filename: X32-edit
+        url:
